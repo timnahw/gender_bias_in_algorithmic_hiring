@@ -1,0 +1,14 @@
+# Generated as a starting point from the notebook's imports.
+# For exact reproducibility, replace this with the real output of
+# `pip freeze` from the environment you actually used, e.g.:
+#   pip freeze > requirements.txt
+# (run inside your activated venv after everything works)
+
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+fairlearn
+aif360
+jupyter

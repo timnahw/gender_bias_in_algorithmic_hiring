@@ -1,0 +1,21 @@
+# Raw generated DGP datasets (11 x 300,000 rows) — deterministically
+# reproducible by re-running the notebook, see README > Reproducing results
+dgp_datasets/
+
+# Raw per-repeat results and checkpoints — only aggregated summaries
+# (results/*_summary.csv, results/comparison_table.csv) are versioned
+results/*_raw.pkl
+results/*_checkpoint.pkl
+results/gridsearch_progress.txt
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
